@@ -1,6 +1,6 @@
 # How To Set Up A Sweet, Sweet JavaScript Development Environment #
 
-If you're new to JavaScript, setting up a project can be a pain. It can also pave the way for for a lot of pitfalls and route errors. The following will guide you through the set up of a basic setup for a full-stack JS development environment, using Node JS, Express and Jasmine.
+If you're new to JavaScript, setting up a project can be a pain. It can also pave the way for for a lot of pitfalls and route errors. The following will guide you through the basic setup for a full-stack JS development environment, using Node JS, Express and Jasmine.
 
 ---
 
@@ -18,7 +18,7 @@ mkdir myProject
 
 ## Step Three ##
 
-Initialise NPM in your project directory to automatically create a `package.json` file. This file organises and stores all the packages that your projects depends on.
+Initialise NPM in your project directory to automatically create a `package.json` file. This file organises and stores all the packages that your project depends on.
 
 ```
 npm init
@@ -52,6 +52,14 @@ mkdir public
 mkdir public/js
 mkdir public/css
 ```
+Create your javascript file in the js folder:
+```
+touch public/js/demoApp.js
+```
+Type in some code for test purposes:
+```javascript
+console.log('This should be visible in the console when the index page is loaded')
+```
 
 ## Step Seven ##
 
@@ -68,13 +76,14 @@ Create your first EJS file in views. Call it whatever you like, but this is what
 ```
 touch views/index.ejs
 ```
-Throw some text in this file so you can test everything is working later.
+Link your JS file with a script tag in the head and throw some text in the body so you can test everything is working later.
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>title</title>
+    <script type="text/javascript" src="demoApp.js"></script>
   </head>
   <body>
     <h1> Hello World </h1>
@@ -101,6 +110,7 @@ So in "header.ejs", you can put:
   <head>
     <meta charset="UTF-8">
     <title>title</title>
+    <script type="text/javascript" src="demoApp.js"></script>
   </head>
   <body>
 ```
@@ -119,6 +129,17 @@ Here is how we would do that in our **index.ejs** file:
 ```
 
 ## Step Ten ##
+
+Create a lib folder in the root to house your jasmine files.
+```
+mkdir lib
+```
+Then simply [download](https://github.com/jasmine/jasmine/releases) the latest Jasmine standalone, move it to this newly created lib folder and unzip it.
+```
+unzip jasmine-standalone-3.1.0.zip
+```
+
+## Step Eleven ##
 
 Create a controller file in the root of your project directory. This is where we will manage all out get/ post requests and load up the server from.
 
@@ -167,5 +188,3 @@ node app.js
 and go to port 300 on your localhost to see your index.ejs file rendered:
 
 http://localhost:3000/
-
-### I hope this was helpful, please leave a message if you want to know anything else ###

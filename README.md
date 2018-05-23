@@ -4,6 +4,10 @@ If you're new to JavaScript, setting up a project can be a pain. It can also pav
 
 ---
 
+![alt text](https://imgur.com/3GYrzix "Working Tree")
+
+![alt text](https://imgur.com/kUS2zq1 "Working Tree 2")
+
 ## Step One ##
 
 [Download Node JS](https://nodejs.org/en/). Conveniently, downloading Node will also give you access to NPM on your machine. NPM is Node's package manager and allows you to install a multitude of other packages that will make your life easier, such as Express.

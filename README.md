@@ -4,9 +4,9 @@ If you're new to JavaScript, setting up a project can be a pain. It can also pav
 
 ---
 
-![alt text](https://imgur.com/3GYrzix "Working Tree")
+[Imgur](https://i.imgur.com/3GYrzix.png)
 
-![alt text](https://imgur.com/kUS2zq1 "Working Tree 2")
+[Imgur](https://i.imgur.com/kUS2zq1.png)
 
 ## Step One ##
 

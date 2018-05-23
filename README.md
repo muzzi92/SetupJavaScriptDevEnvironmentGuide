@@ -1,12 +1,12 @@
 # How To Set Up A Sweet, Sweet JavaScript Development Environment #
 
-If you're new to JavaScript, setting up a project can be a pain. It can also pave the way for for a lot of pitfalls and route errors. The following will guide you through the basic setup for a full-stack JS development environment, using Node JS, Express and Jasmine.
+If you're new to JavaScript, setting up a project can be a pain. It can also pave the way for for a lot of pitfalls and route errors. The following will guide you through the basic setup for a full-stack JS development environment, using Node JS, Express and Jasmine. As you can see below, it's nice to keep your tree clean and readable.
 
 ---
 
-![alt text](https://i.imgur.com/3GYrzix.png "Working Tree")
-
-![alt text](https://i.imgur.com/kUS2zq1.png "Working Tree 2")
+Hidden View                           |  Expanded View
+:------------------------------------:|:--------------------------------------:
+![](https://i.imgur.com/3GYrzix.png)  |  ![](https://i.imgur.com/kUS2zq1.png")
 
 ## Step One ##
 

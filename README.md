@@ -189,6 +189,6 @@ Now you will be able to throw the server up from your command line with:
 ```
 node app.js
 ````
-and go to port 300 on your localhost to see your index.ejs file rendered:
+and go to port 3000 on your localhost to see your index.ejs file rendered:
 
 http://localhost:3000/
